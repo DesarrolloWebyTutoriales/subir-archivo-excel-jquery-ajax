@@ -16,7 +16,7 @@ function Conexion()
    }
    if (!mysqli_select_db($cn,BASE_DATOS))
    {
-    echo "Error seleccionando la base de datos.";
+    echo "Hay un error en la base de datos.";
     exit();
    }
    
