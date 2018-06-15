@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css" />
+	<title>Subir archivo CSV en PHP</title>
+	<!-- libreria jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- cargar js -->
+	<script src="js/cargar.js"></script>
+</head>
+<body>
+
+	<!-- contenedor -->
+	<main id="contenedor">
+		<!-- formulario -->
+		<section class="formulario">
+			
+			<!-- -->
+			<header>
+				<h1>Formulario para subir archivo CSV</h1>
+			</header>
+			<!-- -->
+			
+			<!-- -->
+			<section>
+				<form name="frmSubirCSV" id="frmSubirCSV" method="post" enctype="multipart/form-data">
+					<p><img src="images/file.png" alt="" class="imagen"></p>
+					<h2>Subir archivo CSV</h2>
+					<p><input type="file" name="archivo_csv" id="archivo_csv"></p>
+					<p><input type="submit" class="enviar_archivo separar_boton" value="Enviar archivo"></p>
+
+					<div id="estado"></div>
+
+				</form>
+
+			</section>
+			<!-- -->
+
+		</section>
+		<!-- ./formulario -->
+
+	</main>
+	<!-- ./contenedor -->
+
+</body>
+</html>
