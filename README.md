@@ -1,5 +1,7 @@
 # Subir archivo excel usando PHP, MySQL, JQuery Ajax
 
+![Image of screenshot](https://octodex.github.com/images/yaktocat.png)
+
 Pasos para ejecutar el aplicativo
 
 1. Descargar el aplicativo.
