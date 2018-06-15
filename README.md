@@ -1,6 +1,6 @@
 # Subir archivo excel usando PHP, MySQL, JQuery Ajax
 
-![Image of screenshot](https://octodex.github.com/images/yaktocat.png)
+![Image of screenshot](https://github.com/DesarrolloWebyTutoriales/subir-archivo-excel-jquery-ajax/blob/master/images/screenshot.jpg)
 
 Pasos para ejecutar el aplicativo
 
